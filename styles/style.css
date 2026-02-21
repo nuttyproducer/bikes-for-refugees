@@ -34,9 +34,9 @@ p {
   margin-bottom: 0;
 }
 
-.header,
-.content,
-.footer {
+header,
+content,
+footer {
   padding: 0 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -44,7 +44,7 @@ p {
 
 /* Header */
 
-.header {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -100,7 +100,7 @@ p {
 
 /* Content */
 
-.content {
+main {
   display: flex;
   flex-direction: column;
 }
@@ -213,7 +213,7 @@ p {
 
 /* Sidebar */
 
-.sidebar {
+aside {
   display: flex;
   flex-direction: column;
   min-width: 350px;
@@ -221,7 +221,7 @@ p {
 
 /* Footer */
 
-.footer {
+footer {
   margin-top: 2rem;
 }
 
@@ -240,7 +240,7 @@ p {
 /* Media queries */
 
 @media screen and (min-width: 992px) {
-  .content {
+  main {
     flex-direction: row;
   }
 
