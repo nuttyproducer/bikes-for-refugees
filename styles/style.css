@@ -92,13 +92,30 @@ header {
   border-left-color: var(--orange-dark);
 }
 
-
 /* Buttons */
 
-  /* INSERT BUTTON STYLES HERE */
+/* Shared button styles on element selector for DRY principle.
+   Color variations use modifier classes (.button-orange, .button-white) */
+
+button {
+  padding: 0.75em 1.5em;
+  border-radius: 0.2em;
+  border: 0;
+  font-weight: 600;
+}
 
 
-/* Content */
+.button-orange {
+  background-color: var(--orange-dark);
+  color: var(--white);
+}
+
+
+.button-white {
+  background-color: var(--white);
+  color: var(--orange-dark);
+}
+
 
 main {
   display: flex;
