@@ -81,8 +81,8 @@ header {
 /* Text styles */
 
 .text-highlight {
-  color: var(--orange-dark);
-  font-weight: 600;
+  color: var(--grey-dark); /* fix accessability contrast for Lighthouse */
+  font-weight: 700;
 }
 
 .arrow-right {
