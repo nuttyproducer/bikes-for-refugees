@@ -103,6 +103,7 @@ button {
   border-radius: 0.2em;
   border: 0;
   font-weight: 700;
+
   font-size: 1.2em;
 }
 
@@ -118,6 +119,13 @@ button {
   color: var(--orange-dark);
 }
 
+
+.button-orange:hover,
+.button-orange:focus {
+  background: var(--white);
+  color: var(--orange-dark);
+  border: 1px solid var(--orange-dark);
+}
 
 main {
   display: flex;
